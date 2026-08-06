@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "random-block-drops",
+	"version": "${version}",
+	"name": "Random Block Drops",
+	"description": "Randomizes block drops using a per-world loot pool. Every eligible block drops a random item from the pool, creating unpredictable and chaotic gameplay. Configure via Mod Menu or use /rbd commands.",
+	"authors": [
+		"Proman280"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/random-block-drops/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.proman280.randomblockdrops.RandomBlockDrops"
+		],
+		"client": [
+			"com.proman280.randomblockdrops.client.RandomBlockDropsClient"
+		],
+		"modmenu": [
+			"com.proman280.randomblockdrops.client.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"random-block-drops.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

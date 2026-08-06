@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.proman280.randomblockdrops.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BlockDropsMixin",
+		"ExplosionDropsMixin"
+	],
+	"server": [
+		"BreakOperationMixin"
+	],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
