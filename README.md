@@ -5,14 +5,14 @@ A Minecraft Fabric mod that randomizes block drops, turning normal block breakin
 ## Features
 
 - Random block drops when mining blocks
-- Supports Minecraft 1.21.10
+- Supports Minecraft 1.21.1
 - Built for Fabric Loader and Fabric API
 - Works on both client and server
 - Simple survival gameplay randomizer
 
 ## Installation
 
-1. Install Minecraft 1.21.10.
+1. Install Minecraft 1.21.1.
 2. Install Fabric Loader.
 3. Install Fabric API.
 4. Place the Random Block Drops `.jar` file into your `mods` folder.
@@ -21,7 +21,7 @@ A Minecraft Fabric mod that randomizes block drops, turning normal block breakin
 ## Mod Information
 
 **Mod Loader:** Fabric  
-**Minecraft Version:** 1.21.10  
+**Minecraft Version:** 1.21.1  
 **Side:** Client and Server
 
 ## License
