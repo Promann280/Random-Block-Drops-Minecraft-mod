@@ -3,11 +3,14 @@
 	"package": "com.proman280.randomblockdrops.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"BedDropsMixin",
 		"BlockDropsMixin",
+		"DoublePlantDropsMixin",
 		"ExplosionDropsMixin"
 	],
 	"server": [
-		"BreakOperationMixin"
+		"BreakOperationMixin",
+		"CreativeDropsMixin"
 	],
 	"client": [],
 	"injectors": {
